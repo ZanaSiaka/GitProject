@@ -37,6 +37,7 @@ nav .logo{
     height: 200px;
     margin-top: -4.5%;
     margin-left: 2%;
+    position: sticky;
 }
 
 nav ul{
@@ -86,7 +87,7 @@ nav ul a img{
 
 .slider img{
     width: 950px;
-    height: 500px;
+    height: 300px;
 }
 
 @keyframes carrousel {
@@ -271,7 +272,20 @@ footer .new .newlester input{
     border-radius: 8px;
     padding-left: 3%;
     font-size: 1.1em;
+    display: block;
     color: rgb(92,132,227);
+}
+
+footer .new .newlester button{
+    width: 30%;
+    height: 50px;
+    font-size: 1.2em;
+    color: rgb(92,132,227);
+    background-color: rgba(226,201,226,255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1%;
 }
 
 footer .new .newlester input:focus{
