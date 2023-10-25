@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.bord img{
+    position: absolute;
+    top:-70px;
+}
+
+.bord h2{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    margin-left: 40%;
+    color: #5C86E3;
+}
+.bord{
+    margin-left: 40%;
+}
+hr{
+    margin-top:90px ;
+}
+.ajout{
+    margin-left: 45%;
+    margin-top: 10px;
+    color: #5C86E3;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 90px;
+}
+.container div{
+    height: 400px;  
+}
+.item1{
+    border-left: none;
+    margin-top: -50px;
+}
+.item2{
+    border-left: solid 3px;
+    border-left-color: #5C86E3;
+    border-bottom: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: -50px;
+    
+}
+#mat, #np , #mail{
+    width: 90%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-color: #5C86E3;
+    
+}
+.item1 form label{
+    margin-left: 20px;
+    position: absolute;
+    margin-top:40px ;
+    color: #5C86E3;
+}
+#photo, #mp {
+    width: 90%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-left: 47px;
+    border-color: #5C86E3;
+    
+}
+.item2 form label{
+    margin-left: 50px;
+    position: absolute;
+    margin-top:40px ;
+    color: #5C86E3;
+}
+#submit{
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: rgb(92,132,227);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    border-color:rgb(92,132,227) ;
+}
